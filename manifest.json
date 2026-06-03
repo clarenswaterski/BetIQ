@@ -1,0 +1,26 @@
+{
+  "name": "BetIQ — Copilote de paris sportifs",
+  "short_name": "BetIQ",
+  "description": "Analysez, simulez et améliorez vos paris sportifs avec l'intelligence artificielle.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080E1C",
+  "theme_color": "#0F172A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["sports", "finance", "utilities"],
+  "lang": "fr"
+}
