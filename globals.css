@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #080E1C;
+  color: #F0F6FF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent iOS text size adjustment */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Remove default button styles */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Remove default input styles */
+input, select, textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A3D5E;
+  border-radius: 2px;
+}
